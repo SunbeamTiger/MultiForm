@@ -39,6 +39,7 @@
             this.btnShowForm.TabIndex = 0;
             this.btnShowForm.Text = "Show form";
             this.btnShowForm.UseVisualStyleBackColor = true;
+            this.btnShowForm.Click += new System.EventHandler(this.btnShowForm_Click);
             // 
             // Form1
             // 
@@ -47,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(467, 315);
             this.Controls.Add(this.btnShowForm);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
